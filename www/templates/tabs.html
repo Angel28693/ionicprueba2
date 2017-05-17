@@ -1,0 +1,14 @@
+
+<ion-view view-title="Login" name="login-view">
+  <ion-content class="padding" style="margin-bottom:10px">
+      <div class="list list-inset">
+          <label class="item item-input">
+              <input type="text" placeholder="Usuario" id="username" ng-model="data.username">
+          </label>
+          <label class="item item-input">
+              <input type="password" placeholder="Contraseña" id="pass" ng-model="data.password">
+          </label>
+      </div>
+      <button class="button button-block button-calm" ng-click="login()">Ingresar</button>
+  </ion-content>
+</ion-view>
